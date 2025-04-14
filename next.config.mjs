@@ -13,7 +13,6 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  assetPrefix: isGithubPages,
   eslint: {
     ignoreDuringBuilds: true,
   },
